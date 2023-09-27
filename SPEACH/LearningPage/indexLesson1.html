@@ -18,19 +18,11 @@
         </div>
         
         <div class="wrapper">
-            <h1>Bagaimana cara mengatakan “Selamat pagi”?</h1>
+            <h1>Bagaimana cara mengatakan “Selamat pagi” dalam bahasa Inggris?</h1>
             <div class="options">
-                <a href="#wrong" class="option1">
-                    <p>Good evening</p>
-                </a>
-                <a href="#correct" class="option1" onclick="changeColor2(event)">
-                    <p>Good morning</p>
-                </a>
-                <a href="#wrong" class="option1">
-                    <p>Good night</p>
-                </a>
-                <a href="#wrong" class="option1">
-                    <p>Good afternoon</p>
+                
+                <a id="mic1" class="microphone_container">
+                    <img id="image" class="mic_default" src="mic1.svg" alt="">
                 </a>
             </div>
         </div>
@@ -48,7 +40,7 @@
                 <button class="next" onclick="openQ(event, 'second')"></button>
             </div>
         </div>
-
+<!--  -->
     </div>
 
     <div class="question" id="second">
@@ -78,7 +70,7 @@
         </div>
         
         <div class="lower2">
-            <div class="bwh2" id="correct2">
+            <div class="bwh2 active" id="correct2">
                 <img src="https://drive.google.com/uc?export=view&id=1ulwo40fNMDD_0LJZTODkhNuFIAllXQ8r" class="correctImg2" alt="">
                 <h1>Bagus! Jawaban anda benar!</h1>
                 <button class="next2" onclick="openQ(event, 'third')"></button>
